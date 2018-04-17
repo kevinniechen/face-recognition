@@ -13,7 +13,7 @@ help:
 	echo $$PROJECT_HELP_MSG | less
 
 CLEAN_EXT = *.pyc
-CLEAN_DIR = data/interim/illumination/* data/interim/data/* data/interim/pose/*
+CLEAN_DIR = data/interim/illumination/* data/interim/data/* data/interim/pose/* data/processed/*
 
 clean:
 	rm -rf ${CLEANUP}
