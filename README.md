@@ -5,9 +5,11 @@
 - Run `pip install -r requirements` to install required Python libaries
 
 ### Quick Start
-Run `jupyter notebook` or `jupyter lab` (requires Python module installation of `jupyter` and `jupyterlab`, respectively) and traverse `notebooks/` to run the notebooks. These notebooks contain all exploratory analysis performed in the report.
+Run `make run` or `python3 -W ignore test.py` to run classifier models from `src/`. NOTE: You must be in 'src/' before running `test.py` or else relative paths will fail. These models contain a fraction of the code in the notebooks.
 
-Run `make run` to run classifier models. These models contain a fraction of the code in the notebooks. (Run jupyter notebook if unavailable)
+Run `jupyter notebook` or `jupyter lab` (requires Python module installation of `jupyter` and `jupyterlab`, respectively) and traverse `notebooks/` to run the notebooks. `analysis.ipynb` contains all exploratory analysis (plots, etc) performed in the report.
+
+Run `python3 process_data.py` to manually generate the data from the raw inputs from `src/`. This shouldn't be necessary since the data is already in the .zip file. This code is from the `process_data.ipynb` notebook.
 
 ### Directory Structure
 `notebooks/` contains all exploratory code in Jupyter Notebooks
