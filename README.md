@@ -1,5 +1,8 @@
 # Face Recognition
 
+### Note
+Required `Code/` folder is split into `notebooks/` (exploratory notebooks with plots) and `src` (simplified classifiers) folders. See below for more information.
+
 ### Dependencies
 - Python3
 - Run `pip install -r requirements` to install required Python libaries
