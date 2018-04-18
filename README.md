@@ -1,9 +1,13 @@
 # Face Recognition
 
-### Quick Start
-Run `make run` to run classifier models.
+### Dependencies
+- Python3
+- Run `pip install -r requirements` to install required Python libaries
 
+### Quick Start
 Run `jupyter notebook` or `jupyter lab` (requires Python module installation of `jupyter` and `jupyterlab`, respectively) and traverse `notebooks/` to run the notebooks.
+
+Run `make run` to run classifier models. (might be buggy- run jupyter notebook if unavailable)
 
 ### Directory Structure
 `notebooks/` contains all exploratory code in Jupyter Notebooks
