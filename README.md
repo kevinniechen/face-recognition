@@ -5,9 +5,9 @@
 - Run `pip install -r requirements` to install required Python libaries
 
 ### Quick Start
-Run `jupyter notebook` or `jupyter lab` (requires Python module installation of `jupyter` and `jupyterlab`, respectively) and traverse `notebooks/` to run the notebooks.
+Run `jupyter notebook` or `jupyter lab` (requires Python module installation of `jupyter` and `jupyterlab`, respectively) and traverse `notebooks/` to run the notebooks. These notebooks contain all exploratory analysis performed in the report.
 
-Run `make run` to run classifier models. (might be buggy- run jupyter notebook if unavailable)
+Run `make run` to run classifier models. These models contain a fraction of the code in the notebooks. (Run jupyter notebook if unavailable)
 
 ### Directory Structure
 `notebooks/` contains all exploratory code in Jupyter Notebooks
